@@ -1,0 +1,106 @@
+QMenuBar
+{
+	font-size: 15px;
+}
+
+QMenu
+{
+	font-size: 15px;
+}
+
+QGroupBox
+{
+    font-size: 20px;
+}
+
+QComboBox
+{
+    font-size: 15px;
+}
+
+QRadioButton
+{
+    font-size: 15px;
+}
+
+QLabel
+{
+	font-size: 15px;
+}
+
+QLineEdit
+{
+    font-size: 15px;
+}
+
+QPushButton
+{
+    font-size: 15px;
+}
+
+QCheckBox
+{
+    font-size: 15px;
+}
+
+QListWidget
+{
+    font-size: 15px;
+}
+
+QGroupBox#groupBoxModelSelection
+{
+    font-size: 25px;
+	font-weight: bold;
+}
+QGroupBox#groupBoxData
+{
+    font-size: 25px;
+	font-weight: bold;
+}
+QGroupBox#groupBoxModelSetup
+{
+    font-size: 25px;
+	font-weight: bold;
+}
+QGroupBox#groupBoxModelFit
+{
+    font-size: 25px;
+	font-weight: bold;
+}
+
+QPushButton#pushButtonLoadData
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.511, x2:1, y2:0.511, stop:0 rgba(0, 172, 149, 255),stop:0.995192 rgba(54, 197, 177, 1));
+	color: #fff;
+	font-weight: bold;
+	border-radius: 5px;
+}
+QPushButton::pressed#pushButtonLoadData
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.511, x2:1, y2:0.511, stop:0 rgba(0, 207, 179, 255),stop:1 rgba(70, 255, 230, 1));
+}
+
+QPushButton#pushButtonSetupModel
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.511, x2:1, y2:0.511, stop:0 rgba(0, 172, 149, 255),stop:0.995192 rgba(54, 197, 177, 1));
+	color: #fff;
+	font-weight: bold;
+	border-radius: 5px;
+}
+QPushButton::pressed#pushButtonSetupModel
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.511, x2:1, y2:0.511, stop:0 rgba(0, 207, 179, 255),stop:1 rgba(70, 255, 230, 1));
+}
+
+QPushButton#pushButtonFitModel
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.511, x2:1, y2:0.511, stop:0 rgba(0, 172, 149, 255),stop:0.995192 rgba(54, 197, 177, 1));
+	color: #fff;
+	font-weight: bold;
+	border-radius: 5px;
+}
+QPushButton::pressed#pushButtonFitModel
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.511, x2:1, y2:0.511, stop:0 rgba(0, 207, 179, 255),stop:1 rgba(70, 255, 230, 1));
+}
